@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can navigate to the alumni directory website by clicking on Directory</description>
+   <name>Alumni-Directory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcef9fc0-201b-4cec-8b82-95be38354bbd</testCaseGuid>
+</TestCaseEntity>
