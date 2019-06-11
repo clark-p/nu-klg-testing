@@ -16,4 +16,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/FT_MBA_Form-Apply Now</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1193ed77-4a96-4704-a58b-03d0f6497c8f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FT_MBA_Form-Request_Info</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

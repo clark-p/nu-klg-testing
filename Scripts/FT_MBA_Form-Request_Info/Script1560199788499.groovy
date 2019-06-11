@@ -69,7 +69,5 @@ WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg 
 
 WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg School of Management/button_Update'))
 
-WebUI.click(findTestObject('Object Repository/Page_/button_Update'))
-
 WebUI.closeBrowser()
 
