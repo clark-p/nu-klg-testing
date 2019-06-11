@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Part time MBA</description>
+   <name>Attend An Event</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b97b171-d42c-4e41-b14d-599d7d610a77</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>91c213c6-1a7c-4aa7-a75d-cf04a02d08c9</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9ca59c0a-8087-4d96-9a9e-48afc3a82d19</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+</TestCaseEntity>
