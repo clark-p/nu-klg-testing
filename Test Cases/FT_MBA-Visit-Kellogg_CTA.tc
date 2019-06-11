@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>FT_MBA_Form-Apply_Now</name>
+   <name>FT_MBA-Visit-Kellogg_CTA</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3d228e1d-6b56-4725-a55b-f43f986a6bc3</testCaseGuid>
+   <testCaseGuid>a2ba9919-b018-40f2-9e0f-37ba80d8511c</testCaseGuid>
 </TestCaseEntity>

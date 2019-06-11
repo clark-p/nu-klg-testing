@@ -13,3 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/programs/full-time-mba.aspx')
+
+WebUI.click(findTestObject('Page_Visit-Kellogg/Page_Full-Time MBA Program  Kellogg School of Management/a_Visit Kellogg'))
+
+WebUI.click(findTestObject('Page_Visit-Kellogg/Page_Campus Visits/a_Register to Visit'))
+
+WebUI.getWindowTitle('Kellogg School of Management - Full-Time MBA Campus Visit')
+
+/* WebUI.verifyMatch(getWindowTitle, 'Kellogg School of Management - Full-Time MBA Campus Visit', true) */
+
+WebUI.closeBrowser()
+
