@@ -19,5 +19,7 @@ WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/alumni.aspx')
 
 WebUI.click(findTestObject('Object Repository/Page_Kellogg Alumni Network  Kellogg School of Management/a_Profile'))
 
+WebUI.getWindowTitle()
+
 WebUI.closeBrowser()
 

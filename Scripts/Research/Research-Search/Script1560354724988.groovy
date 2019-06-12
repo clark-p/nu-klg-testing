@@ -13,13 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/alumni.aspx')
-
-WebUI.click(findTestObject('Object Repository/Page_Kellogg Alumni Network  Kellogg School of Management/a_Donate Now'))
-
-WebUI.getWindowTitle()
-
-WebUI.closeBrowser()
-
