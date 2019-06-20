@@ -13,7 +13,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Part Time MBA</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Part Time MBA kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -22,7 +22,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Part Time MBA</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Part Time MBA kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -31,7 +31,7 @@
             <runConfigurationId>IE</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Part Time MBA</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Part Time MBA kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -40,7 +40,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/EMBA</testSuiteEntity>
+         <testSuiteEntity>Test Suites/EMBA kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -49,7 +49,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/EMBA</testSuiteEntity>
+         <testSuiteEntity>Test Suites/EMBA kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -58,7 +58,7 @@
             <runConfigurationId>IE</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/EMBA</testSuiteEntity>
+         <testSuiteEntity>Test Suites/EMBA kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -67,7 +67,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Doctoral</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Doctoral kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -76,7 +76,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Doctoral</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Doctoral kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -85,7 +85,7 @@
             <runConfigurationId>IE</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Doctoral</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Doctoral kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -94,7 +94,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/MS Management Studies</testSuiteEntity>
+         <testSuiteEntity>Test Suites/MS Management Studies kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -103,7 +103,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/MS Management Studies</testSuiteEntity>
+         <testSuiteEntity>Test Suites/MS Management Studies kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -112,7 +112,7 @@
             <runConfigurationId>IE</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/MS Management Studies</testSuiteEntity>
+         <testSuiteEntity>Test Suites/MS Management Studies kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -121,7 +121,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Certificate</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Certificate kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -130,7 +130,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Certificate</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Certificate kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -139,7 +139,7 @@
             <runConfigurationId>IE</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Certificate</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Certificate kmsmaz</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
