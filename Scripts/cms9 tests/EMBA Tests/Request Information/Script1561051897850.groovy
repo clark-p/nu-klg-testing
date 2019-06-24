@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Page_EMBA Kellogg School of Management/Page_Reques
     'zzCacioppo')
 
 WebUI.setText(findTestObject('Page_EMBA Kellogg School of Management/Page_Request Info  Kellogg Executive MBA  Northwestern/input_Email Address_form_1d826bb9-9f2c-4a1b-8cec-3987170bb4bb'), 
-    'zzmatthew.cacioppo@northwestern.edu')
+    'matthew.cacioppo@northwestern.edu')
 
 WebUI.click(findTestObject('Page_EMBA Kellogg School of Management/Page_Request Info  Kellogg Executive MBA  Northwestern/button_Submit'))
 

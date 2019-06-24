@@ -23,13 +23,13 @@ WebUI.selectOptionByValue(findTestObject('Page_Part-Time MBA Prgoram Kellogg Sch
     'M', true)
 
 WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Page_Resume Review  Evening and Weekend MBA Program/input_First Name_form_adf0aaec-aba7-4949-bb2f-cd930c746e6b'), 
-    'zzmatthew')
+    'Zzmatthew')
 
 WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Page_Resume Review  Evening and Weekend MBA Program/input_Last Name_form_78e6e4a3-6020-496c-9894-57c3f5c6c8af'), 
-    'zzcacioppo')
+    'Zzcacioppo')
 
 WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Page_Resume Review  Evening and Weekend MBA Program/input_Email Address_form_43fabfc2-2251-4476-b93a-30221776c701'), 
-    'zzmatthew.cacioppo@northwestern.edu')
+    'matthew.cacioppo@northwestern.edu')
 
 WebUI.click(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Page_Resume Review  Evening and Weekend MBA Program/button_Submit'))
 

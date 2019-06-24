@@ -19,25 +19,25 @@ WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/programs/ms-managem
 
 WebUI.click(findTestObject('Page_MS Management Kellogg School of Management/Page_MS in Management Studies  Kellogg School of Management/a_Request Information'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/select_DrMissMrMrsMs'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/select_DrMissMrMrsMs'), 
     'Dr', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/input_First Name_form_6312e50f-4a54-4413-9788-f82b44a0b4b7'), 
-    'zzMatthew')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/input_First Name_form_6312e50f-4a54-4413-9788-f82b44a0b4b7'), 
+    'Zzmatthew')
 
-WebUI.setText(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/input_Last Name_form_7e6f42cb-7266-40e4-879b-0634b7f03b4b'), 
-    'ZZCacioppo')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/input_Last Name_form_7e6f42cb-7266-40e4-879b-0634b7f03b4b'), 
+    'Zzcacioppo')
 
-WebUI.setText(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/input_Email Address_form_f3ecc52f-458c-41e8-abc8-88ac794c5702'), 
-    'zzmatthew.cacioppo@northwestern.edu')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/input_Email Address_form_f3ecc52f-458c-41e8-abc8-88ac794c5702'), 
+    'matthew.cacioppo@northwestern.edu')
 
-WebUI.setText(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/input_Undergraduate Institution Name_form_50757991-2d70-4071-8b15-5a905b6e91ff'), 
+not_run: WebUI.setText(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/input_Undergraduate Institution Name_form_50757991-2d70-4071-8b15-5a905b6e91ff'), 
     'Northwestern University')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/select_Consultingetc'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/select_Consultingetc'), 
     'Technology', true)
 
-WebUI.click(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/button_Submit'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_MS Management Kellogg School of Management/Page_Reach Higher with a Foundation in Business/button_Submit'))
 
 WebUI.closeBrowser()
 
