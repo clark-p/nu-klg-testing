@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Manag
     'Zzcacioppo')
 
 WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Page_Resume Review  Evening and Weekend MBA Program/input_Email Address_form_43fabfc2-2251-4476-b93a-30221776c701'), 
-    'Zzmatthew.cacioppo@northwestern.edu')
+    'matthew.cacioppo@northwestern.edu')
 
 WebUI.click(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Page_Resume Review  Evening and Weekend MBA Program/button_Submit'))
 

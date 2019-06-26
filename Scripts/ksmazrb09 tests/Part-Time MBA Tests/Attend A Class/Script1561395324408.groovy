@@ -26,10 +26,10 @@ WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Manag
     'Zzmatthew')
 
 WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Page_Visit an Evening  Weekend MBA Class  Kellogg School of Management/input_Last Name_form_78e6e4a3-6020-496c-9894-57c3f5c6c8af'), 
-    'zzCacioppo')
+    'Zzcacioppo')
 
 WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Page_Visit an Evening  Weekend MBA Class  Kellogg School of Management/input_Email Address_form_43fabfc2-2251-4476-b93a-30221776c701'), 
-    'zzmatthew.cacioppo@gmail.com')
+    'matthew.cacioppo@northwestern.edu')
 
 WebUI.click(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Page_Visit an Evening  Weekend MBA Class  Kellogg School of Management/button_Submit'))
 

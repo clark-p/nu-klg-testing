@@ -23,13 +23,13 @@ WebUI.selectOptionByValue(findTestObject('Page_Part-Time MBA Prgoram Kellogg Sch
     'Mr', false)
 
 WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Part time MBA/Page_Request Information - Part-Time MBA Program/input_First Name _form_23333248-3df8-4884-8c37-b29ea74a28fa'), 
-    'Zzcacioppo')
+    'Zzmatthew')
 
 WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Part time MBA/Page_Request Information - Part-Time MBA Program/input_Last Name _form_94bcc79d-a579-4b5c-b6c4-130bdb9e72a0'), 
     'Zzcacioppo')
 
 WebUI.setText(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Part time MBA/Page_Request Information - Part-Time MBA Program/input_Email Address _form_0e33f18f-4db2-4bdd-9126-f33deb66d5ce'), 
-    'Zzmatthew.cacioppo@gmail.com')
+    'matthew.cacioppo@northwestern.edu')
 
 WebUI.click(findTestObject('Page_Part-Time MBA Prgoram Kellogg School of Management/Part time MBA/Page_Request Information - Part-Time MBA Program/button_Submit'))
 

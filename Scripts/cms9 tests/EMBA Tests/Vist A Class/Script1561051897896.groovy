@@ -23,10 +23,10 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_EMBA Kellogg Sc
     'M', true)
 
 WebUI.setText(findTestObject('Object Repository/Page_EMBA Kellogg School of Management/Page_Visit a Class  Kellogg Executive MBA  Northwestern/input_First Name_form_adf0aaec-aba7-4949-bb2f-cd930c746e6b'), 
-    'zzmatthew')
+    'Zzmatthew')
 
 WebUI.setText(findTestObject('Object Repository/Page_EMBA Kellogg School of Management/Page_Visit a Class  Kellogg Executive MBA  Northwestern/input_Last Name_form_78e6e4a3-6020-496c-9894-57c3f5c6c8af'), 
-    'zzcacioppo')
+    'Zzcacioppo')
 
 WebUI.setText(findTestObject('Object Repository/Page_EMBA Kellogg School of Management/Page_Visit a Class  Kellogg Executive MBA  Northwestern/input_Email Address_form_43fabfc2-2251-4476-b93a-30221776c701'), 
     'matthew.cacioppo@northwestern.edu')
