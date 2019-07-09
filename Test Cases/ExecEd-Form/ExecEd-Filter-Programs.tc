@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filtering ExecEd programs with dropdown.</description>
+   <name>ExecEd-Filter-Programs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40955335-75cd-4d76-af6f-74d5d7b3d89e</testCaseGuid>
+</TestCaseEntity>

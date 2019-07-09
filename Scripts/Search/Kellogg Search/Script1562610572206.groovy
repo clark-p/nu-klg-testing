@@ -15,11 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.kellogg.northwestern.edu/faculty/faculty_directory.aspx')
+WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/')
 
-WebUI.setText(findTestObject('Object Repository/input_Contact_srch-term'), 'sally')
+WebUI.setText(findTestObject('Object Repository/Kellogg_Search/input_Kellogg School of Management at Northwestern University_layoutheader_0searchcomponent_0txtQuery'), 
+    'test')
 
-WebUI.click(findTestObject('Object Repository/button_Contact_btnfacultySearch'))
-
-WebUI.closeBrowser()
+WebUI.getText(findTestObject('Object Repository/Kellogg_Search/input_Kellogg School of Management at Northwestern University_layoutheader_0searchcomponent_0txtQuery'))
 

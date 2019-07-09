@@ -13,3 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.kellogg.northwestern.edu/faculty/faculty_directory.aspx')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/select_All Departments'), '6', true)
+
+WebUI.click(findTestObject('Object Repository/a_Eric T Anderson'))
+
+WebUI.closeBrowser()
+

@@ -15,11 +15,20 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.kellogg.northwestern.edu/faculty/faculty_directory.aspx')
+WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/executive-education.aspx')
 
-WebUI.setText(findTestObject('Object Repository/input_Contact_srch-term'), 'sally')
+WebUI.click(findTestObject('Page_Kellogg Executive Education/a_program-finder'))
 
-WebUI.click(findTestObject('Object Repository/button_Contact_btnfacultySearch'))
+WebUI.getWindowTitle()
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Exec-Ed/select_UpcomingProgram Name'), 'program_name', 
+    true)
+
+WebUI.click(findTestObject('Object Repository/Page_Exec-Ed/div_More Programs'))
+
+WebUI.click(findTestObject('Object Repository/Page_Exec-Ed/div_PrintSORT BYUpcomingProgram'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Exec-Ed/select_UpcomingProgram Name'), 'upcoming', true)
 
 WebUI.closeBrowser()
 

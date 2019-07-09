@@ -16,4 +16,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/ExecEd-Form/ExecEd-RequestBrochure</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0c6b0514-80e9-43f0-9d82-d474feabdd16</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ExecEd-Form/Exec-ed-sign-up-program</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fac4b4ea-0796-442a-8638-790e305e65b0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ExecEd-Form/ExecEd-Program-Finder</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95ceeb8e-6db0-48ad-a8c7-3c3901e27c2e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ExecEd-Form/ExecEd-Filter-Programs</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>User can search using a combination of research date, title or author</description>
-   <name>Research-Search</name>
+   <name>Research_Keyboard-Input</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a651b848-437d-496d-a386-14a3069c7dc6</testCaseGuid>

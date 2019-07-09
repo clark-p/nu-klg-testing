@@ -15,11 +15,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.kellogg.northwestern.edu/faculty/faculty_directory.aspx')
+WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/faculty/research.aspx')
 
-WebUI.setText(findTestObject('Object Repository/input_Contact_srch-term'), 'sally')
+WebUI.setText(findTestObject('Object Repository/input_View All Research_searchPublication'), 'frequency')
 
-WebUI.click(findTestObject('Object Repository/button_Contact_btnfacultySearch'))
+WebUI.sendKeys(findTestObject('Object Repository/input_View All Research_searchPublication'), Keys.chord(Keys.ENTER))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/select_All-Research'), '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/select_All Departments'), '8', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/select_All Departments'), '0', true)
+
+WebUI.click(findTestObject('Object Repository/i_View All Research_glyphicon glyphicon-search'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/select_All-Research'), '2', true)
 
 WebUI.closeBrowser()
 
