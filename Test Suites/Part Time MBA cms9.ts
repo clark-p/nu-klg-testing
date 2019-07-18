@@ -41,22 +41,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0f4be2b5-067f-458c-b946-4edad80d845e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/cms9 tests/Part-Time MBA Tests/Brochure/Dr. Test</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>316228ed-d27f-4bf9-a293-0f6209a6dd3c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/cms9 tests/Part-Time MBA Tests/Brochure/Miss test</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>41e8c5cc-82b2-499a-9692-869e95688fae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/cms9 tests/Part-Time MBA Tests/Brochure/Mr. Test</testCaseId>
+      <testCaseId>Test Cases/cms9 tests/Part-Time MBA Tests/Brochure</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>92b5f298-0499-40a9-9561-29f3445c4724</guid>

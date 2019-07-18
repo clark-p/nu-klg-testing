@@ -19,5 +19,8 @@ WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/certificate.aspx')
 
 WebUI.click(findTestObject('Page_Certificate/Page_Certificate Program for Undergraduates - Kellogg School of Management - Northwestern University/a_Apply for the Program'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Certificate/Page_Apply - Certificate Program for Undergraduates - Kellogg School of Management - Northwestern University/h1_Apply'), 
+    0)
+
 WebUI.closeBrowser()
 

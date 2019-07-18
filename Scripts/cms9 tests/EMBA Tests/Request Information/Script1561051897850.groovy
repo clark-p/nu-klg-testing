@@ -33,5 +33,8 @@ WebUI.setText(findTestObject('Page_EMBA Kellogg School of Management/Page_Reques
 
 WebUI.click(findTestObject('Page_EMBA Kellogg School of Management/Page_Request Info  Kellogg Executive MBA  Northwestern/button_Submit'))
 
+WebUI.verifyElementPresent(findTestObject('Page_EMBA Kellogg School of Management/Page_Request Information  Executive MBA Program  Kellogg School of Management/span_Request Information - Thank you'), 
+    0)
+
 WebUI.closeBrowser()
 
