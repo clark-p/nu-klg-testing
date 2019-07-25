@@ -19,7 +19,12 @@ WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/executive-education
 
 WebUI.click(findTestObject('Object Repository/Pages_Exec Ed/Saved_Programs_Consistency/Page_Advanced Management Program  Kellogg Executive Education/div_SAVE THIS PROGRAM'))
 
-WebUI.click(findTestObject('Object Repository/Pages_Exec Ed/Saved_Programs_Consistency/Page_Advanced Management Program  Kellogg Executive Education/div_Thanks I got it'), 
+if (WebUI.verifyElementPresent(findTestObject('Pages_Exec Ed/Page_Online Programs/Page_Marketing Training  Kellogg Executive Education/div_Thanks I got it'), 
+    0, FailureHandling.OPTIONAL) == true) {
+    WebUI.click(findTestObject('Pages_Exec Ed/Page_Online Programs/Page_Marketing Training  Kellogg Executive Education/div_Thanks I got it'))
+}
+
+not_run: WebUI.click(findTestObject('Object Repository/Pages_Exec Ed/Saved_Programs_Consistency/Page_Advanced Management Program  Kellogg Executive Education/div_Thanks I got it'), 
     FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Pages_Exec Ed/Saved_Programs_Consistency/Page_Advanced Management Program  Kellogg Executive Education/a_Finance  Accounting'))
