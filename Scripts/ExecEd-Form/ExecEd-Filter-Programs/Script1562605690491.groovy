@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/executive-education.aspx')
 
-WebUI.click(findTestObject('Page_Kellogg Executive Education/a_program-finder'))
+WebUI.click(findTestObject('Page_Exec-Ed/a_program-finder'))
 
 WebUI.getWindowTitle()
 

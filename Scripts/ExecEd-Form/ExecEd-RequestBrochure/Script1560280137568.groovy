@@ -69,7 +69,7 @@ WebUI.click(findTestObject('Object Repository/Page_Request a Brochure  Kellogg E
 
 WebUI.click(findTestObject('Object Repository/Page_Request a Brochure  Kellogg Executive Education/input_ Back_submit'))
 
-WebUI.verifyTextPresent('"Thank You"', false)
+WebUI.verifyTextPresent("Thank You", false)
 
 WebUI.closeBrowser()
 

@@ -19,7 +19,13 @@ WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/alumni.aspx')
 
 WebUI.click(findTestObject('Object Repository/Page_Kellogg Alumni Network  Kellogg School of Management/a_Donate Now'))
 
-WebUI.getWindowTitle()
+currentURL = WebUI.getUrl()
+
+WebUI.switchToWindowIndex(1)
+
+title = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(title, 'We Will. The Campaign for Northwestern - Make a Gift – Your Gift', false)
 
 WebUI.closeBrowser()
 

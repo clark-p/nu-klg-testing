@@ -19,38 +19,45 @@ WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/executive-education
 
 WebUI.click(findTestObject('Object Repository/a_program-finder'))
 
-WebUI.click(findTestObject('Object Repository/span_SORT BY_opener klg-analytics-click'))
+WebUI.click(findTestObject('Object Repository/h3_Essentials of Marketing Strategy'))
 
-WebUI.click(findTestObject('Object Repository/div_SAVE THISPROGRAM'))
+WebUI.click(findTestObject('Page_Exec-Ed/div_SAVE THISPROGRAM'))
 
-WebUI.click(findTestObject('Object Repository/div_Thanks I got it'))
+if (WebUI.verifyElementText(findTestObject('Page_Kellogg Executive Education/Page_Executive Education Program Finder  Kellogg Executive Education/h3_Great Youve just saved your first program'), 
+    'Great! You\'ve just saved your first program!')) {
+    WebUI.verifyElementClickable(findTestObject('Page_Kellogg Executive Education/Page_Executive Education Program Finder  Kellogg Executive Education/div_Thanks I got it'))
 
-WebUI.click(findTestObject('Object Repository/h3_Maximizing Sales Force Performance'))
+    WebUI.click(findTestObject('Page_Kellogg Executive Education/Page_Executive Education Program Finder  Kellogg Executive Education/div_Thanks I got it'))
+}
 
-WebUI.click(findTestObject('Object Repository/span_APPLY'))
+WebUI.click(findTestObject('Object Repository/h3_Essentials of Marketing Strategy'))
 
-WebUI.click(findTestObject('Object Repository/a_Continue Application'))
+//if (WebUI.scrollToElement(findTestObject('Kellogg-Navigation/div_Toggle navigation'), 0)) {
+//   
+//    WebUI.mouseOver(findTestObject('Object Repository/a_The Kellogg Experience'))
+//}
+WebUI.scrollToElement(findTestObject('Kellogg-Navigation/div_Toggle navigation'), 3)
 
-WebUI.setText(findTestObject('Object Repository/input_First (Given) Name_ctl00ContentPlaceHolder1tbxFirstName'), 'zz_Paula')
+WebUI.mouseOver(findTestObject('Object Repository/a_The Kellogg Experience'))
 
-WebUI.setText(findTestObject('Object Repository/input_Last (Family) Name_ctl00ContentPlaceHolder1tbxLastName'), 'zz_Clark')
+WebUI.verifyElementClickable(findTestObject('Page_Executive Education Program Finder  Kellogg Executive Education/a_Saved Programs'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/input_Preferred Email_ctl00ContentPlaceHolder1tbxEmail'), 'paula.clark@kellogg.northwestern.edu')
+//WebUI.verifyElementClickable(findTestObject('Object Repository/a_Saved Programs 1'), 30)
+WebUI.click(findTestObject('Page_Executive Education Program Finder  Kellogg Executive Education/a_Saved Programs'))
 
-WebUI.setText(findTestObject('Object Repository/input_Company_ctl00ContentPlaceHolder1cc_227F50D0_F65B_4A72_9A4F_5060EA05F6AB__company'), 
-    'Kellogg')
+WebUI.getUrl()
 
-WebUI.click(findTestObject('Object Repository/input_Yes_ctl00ContentPlaceHolder1grHor_649EC475_7F46_4DAC_927F_CE735FEA657A__'))
+WebUI.verifyElementVisible(findTestObject('Page_Saved Programs  Kellogg Executive Education/div_Class Profile-Essentials'))
 
-WebUI.click(findTestObject('Object Repository/input_Yes_ctl00ContentPlaceHolder1grHor_1B4C956A_63BB_4704_B389_533605139492__'))
+WebUI.click(findTestObject('Page_Saved Programs  Kellogg Executive Education/h3_Essentials of Marketing Strategy'))
 
-WebUI.click(findTestObject('Object Repository/input_Yes_ctl00ContentPlaceHolder1grHor_3DC71CA5_3B70_43DF_82BB_75C1B93DF2C8__'))
+WebUI.click(findTestObject('Page_Saved Programs  Kellogg Executive Education/div_REMOVE THISPROGRAM'))
 
-WebUI.click(findTestObject('Object Repository/td_Next'))
+WebUI.verifyElementText(findTestObject('Page_Saved Programs  Kellogg Executive Education/h3_It looks like you havent saved any programs yet'), 
+    'It looks like you haven\'t saved any programs yet.')
 
-WebUI.click(findTestObject('Object Repository/a_Next'))
-
-WebUI.getWindowTitle()
+WebUI.click(findTestObject('Object Repository/a_program-finder'))
 
 WebUI.closeBrowser()
 

@@ -17,9 +17,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.kellogg.northwestern.edu/faculty/faculty_directory.aspx')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/select_All Departments'), '6', true)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Faculty Directory  Kellogg School of Management/Dept-Dropdown'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/a_Eric T Anderson'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Faculty Directory  Kellogg School of Management/Dept-Dropdown'), 
+    '6', true)
+
+WebUI.click(findTestObject('Object Repository/Page_Faculty Directory  Kellogg School of Management/div_Faculty'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Faculty Directory  Kellogg School of Management/div_Faculty'), 
+    5)
+
+WebUI.click(findTestObject('Object Repository/Page_Faculty Directory  Kellogg School of Management/a_Eric T Anderson'))
+
+WebUI.verifyTextPresent('Eric T. Anderson', false)
 
 WebUI.closeBrowser()
 
