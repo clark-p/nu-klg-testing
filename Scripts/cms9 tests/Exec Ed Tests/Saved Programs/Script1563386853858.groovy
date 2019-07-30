@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/executive-education/individual-programs/executive-programs/amp-ii.aspx')
+WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/Home/executive-education/individual-programs/executive-programs/OPSTRAT.aspx')
 
-WebUI.click(findTestObject('Object Repository/Pages_Exec Ed/Saved_Programs_Consistency/Page_Advanced Management Program  Kellogg Executive Education/div_SAVE THIS PROGRAM'))
+WebUI.click(findTestObject('Exec Ed IE/Page_Business Operations Strategy for Managers  Kellogg Executive Education/div_SAVE THIS PROGRAM'))
 
 if (WebUI.verifyElementPresent(findTestObject('Pages_Exec Ed/Page_Online Programs/Page_Marketing Training  Kellogg Executive Education/div_Thanks I got it'), 
     0, FailureHandling.OPTIONAL) == true) {
@@ -27,7 +27,14 @@ if (WebUI.verifyElementPresent(findTestObject('Pages_Exec Ed/Page_Online Program
 not_run: WebUI.click(findTestObject('Object Repository/Pages_Exec Ed/Saved_Programs_Consistency/Page_Advanced Management Program  Kellogg Executive Education/div_Thanks I got it'), 
     FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Pages_Exec Ed/Saved_Programs_Consistency/Page_Advanced Management Program  Kellogg Executive Education/a_Finance  Accounting'))
+WebUI.mouseOver(findTestObject('Exec Ed IE/Page_Corporate Governance Program  Kellogg Executive Education/a_Individual Programs'))
+
+WebUI.verifyElementPresent(findTestObject('Exec Ed IE/Page_Business Operations Strategy for Managers  Kellogg Executive Education/a_Saved Programs 1'), 
+    0)
+
+WebUI.click(findTestObject('Exec Ed IE/Page_Business Operations Strategy for Managers  Kellogg Executive Education/h3_Personal Consultation'))
+
+WebUI.click(findTestObject('Exec Ed IE/Page_Business Operations Strategy for Managers  Kellogg Executive Education/a_Finance  Accounting'))
 
 WebUI.click(findTestObject('Object Repository/Pages_Exec Ed/Saved_Programs_Consistency/Page_Corporate Financial Management  Accounting  Kellogg Executive Education/a_LEARN MORE'))
 
@@ -42,7 +49,7 @@ WebUI.verifyElementPresent(findTestObject('Pages_Exec Ed/Saved_Programs_Consiste
 
 WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/executive-education/saved-programs.aspx')
 
-WebUI.click(findTestObject('Object Repository/Pages_Exec Ed/Saved_Programs_Consistency/Page_Saved Programs  Kellogg Executive Education/div_REMOVE THISPROGRAM'))
+WebUI.click(findTestObject('Exec Ed IE/Page_Saved Programs  Kellogg Executive Education/div_REMOVE THISPROGRAM'))
 
 WebUI.click(findTestObject('Object Repository/Pages_Exec Ed/Saved_Programs_Consistency/Page_Saved Programs  Kellogg Executive Education/div_REMOVE THISPROGRAM_1'))
 
