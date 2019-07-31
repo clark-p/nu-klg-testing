@@ -21,11 +21,13 @@ WebUI.click(findTestObject('Object Repository/Page_Kellogg Alumni Network  Kello
 
 currentURL = WebUI.getUrl()
 
-WebUI.switchToWindowIndex(1)
+currentPageIndex = WebUI.getWindowIndex()
 
-title = WebUI.getWindowTitle()
+WebUI.switchToWindowIndex(currentPageIndex + 1)
 
-WebUI.verifyMatch(title, 'We Will. The Campaign for Northwestern - Make a Gift – Your Gift', false)
+currentTitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(currentTitle, 'We Will. The Campaign for Northwestern - Make a Gift – Your Gift', false)
 
 WebUI.closeBrowser()
 

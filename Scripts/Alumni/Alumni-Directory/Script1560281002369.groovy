@@ -15,13 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.acceptAlert()
-
 WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/alumni.aspx')
 
 WebUI.click(findTestObject('Object Repository/Page_Kellogg Alumni Network  Kellogg School of Management/a_Directory'))
 
-title = WebUI.getWindowTitle()
+currentPageIndex = WebUI.getWindowIndex()
+
+WebUI.switchToWindowIndex(currentPageIndex + 1)
+
+directoryTitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(directoryTitle, 'Our Northwestern', false)
 
 WebUI.closeBrowser()
 

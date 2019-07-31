@@ -13,3 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://cms9dev.kellogg.northwestern.edu/alumni/')
+
+WebUI.click(findTestObject('Page_Kellogg Alumni Network  Kellogg School of Management/a_Profile'))
+
+alumniPageIndex = WebUI.getWindowIndex()
+
+WebUI.switchToWindowIndex(alumniPageIndex + 1)
+
+profileTitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(profileTitle, 'Our Northwestern', false)
+
+WebUI.closeBrowser()
+
