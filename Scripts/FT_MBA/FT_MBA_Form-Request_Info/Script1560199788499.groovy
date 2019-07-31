@@ -17,7 +17,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/programs/full-time-mba.aspx')
 
+ftmbaTitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(ftmbaTitle, 'Full-Time MBA Program | Kellogg School of Management', false)
+
+WebUI.verifyElementClickable(findTestObject('Page_Full-Time MBA Program  Kellogg School of Management/a_Request Information'))
+
 WebUI.click(findTestObject('Page_Full-Time MBA Program  Kellogg School of Management/a_Request Information'))
+
+formFTMBATitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(formFTMBATitle, 'Brochure Request | Kellogg School of Management', false)
+
+WebUI.focus(findTestObject('Page_Brochure Request  Kellogg School of Management/select_DrMissMrMrsMs'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Brochure Request  Kellogg School of Management/select_DrMissMrMrsMs'), 
     'F', true)
@@ -42,7 +54,11 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Brochure Reques
 WebUI.setText(findTestObject('Object Repository/Page_Brochure Request  Kellogg School of Management/input_Postal Code_form_postal'), 
     '60618')
 
+WebUI.verifyElementClickable(findTestObject('Page_Brochure Request  Kellogg School of Management/button_Submit'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Page_Brochure Request  Kellogg School of Management/button_Submit'))
+
+WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg School of Management/label_Researching options'))
 
@@ -54,11 +70,6 @@ WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg 
 
 WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg School of Management/input_MMM Program_form_ef0663b2-7a78-4403-9b03-dc771e4dddf3'))
 
-WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg School of Management/div_divform_response_banner'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Request Information  Kellogg School of Management/input_Undergraduate-Major'), 
-    'zzEconomics')
-
 WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg School of Management/input_Joint-Ventures'))
 
 WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg School of Management/input_Black-Management-Association'))
@@ -66,6 +77,8 @@ WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg 
 WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg School of Management/input_Professional-Interests'))
 
 WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg School of Management/input_Accounting'))
+
+WebUI.verifyElementClickable(findTestObject('Page_Request Information  Kellogg School of Management/button_Update'))
 
 WebUI.click(findTestObject('Object Repository/Page_Request Information  Kellogg School of Management/button_Update'))
 

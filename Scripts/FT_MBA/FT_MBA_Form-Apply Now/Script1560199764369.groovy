@@ -18,7 +18,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/programs/full-time-mba.aspx')
 
+ftmbaTitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(ftmbaTitle, 'Full-Time MBA Program | Kellogg School of Management', false)
+
+WebUI.verifyElementClickable(findTestObject('Page_Full-Time MBA Program  Kellogg School of Management/a_Apply Now'))
+
 WebUI.click(findTestObject('Object Repository/Page_Full-Time MBA Program  Kellogg School of Management/a_Apply Now'))
+
+applyNowTitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(applyNowTitle, 'Application Management', false)
+
+WebUI.verifyElementClickable(findTestObject('Page_Application Management/span_Create an account'))
 
 WebUI.closeBrowser()
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test executes a user flow that allows the user to navigate to the page, checks that it's the correct page, navigates to the apply now page and make sure that the Create An Account link is present and clickable. </description>
    <name>FT_MBA_Form-Apply Now</name>
    <tag></tag>
    <comment></comment>

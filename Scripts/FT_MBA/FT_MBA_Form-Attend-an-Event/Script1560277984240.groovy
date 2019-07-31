@@ -15,7 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/executive-education.aspx')
+WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/programs/full-time-mba.aspx')
+
+WebUI.getWindowTitle()
 
 WebUI.click(findTestObject('Page_Kellogg Executive Education/a_request-brochure-form'))
 
