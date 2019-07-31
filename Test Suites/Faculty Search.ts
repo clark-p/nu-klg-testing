@@ -14,12 +14,12 @@
       <guid>00493c0f-d18d-47a2-ad91-462d9d78e88b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faculty-Directory/faculty-profile</testCaseId>
+      <testCaseId>Test Cases/Faculty-Directory/faculty-profile-multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0ab07ca9-5a17-46ae-ae93-ed30ecfe59b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faculty-Directory/faculty-profile-dropdown</testCaseId>
+      <testCaseId>Test Cases/Faculty-Directory/faculty-profile-dropdown-DO NOT USE</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

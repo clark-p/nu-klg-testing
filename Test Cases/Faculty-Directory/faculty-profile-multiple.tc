@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>This test was created to see if a user can search for a faculty member's name and be redirected to their profile. This test will only work if their is one instance for the faculty member's name.</description>
-   <name>faculty-profile</name>
+   <name>faculty-profile-multiple</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b9e5bee6-2b01-43bd-9f78-d081f689b781</testCaseGuid>
+   <testCaseGuid>c1064c38-8ee9-498c-b4c4-93d1fb6f7dea</testCaseGuid>
 </TestCaseEntity>

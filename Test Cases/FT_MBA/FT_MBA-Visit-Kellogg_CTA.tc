@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test tries to see if it's possible to get to the Campus Visit page from the FTMBA page. </description>
    <name>FT_MBA-Visit-Kellogg_CTA</name>
    <tag></tag>
    <comment></comment>

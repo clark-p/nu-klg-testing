@@ -15,24 +15,29 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/programs/full-time-mba.aspx')
+WebUI.navigateToUrl('https://www.kellogg.northwestern.edu/faculty/faculty_directory.aspx')
 
-WebUI.verifyElementClickable(findTestObject('Page_Visit-Kellogg/Page_Full-Time MBA Program  Kellogg School of Management/a_Visit Kellogg'), 
+WebUI.focus(findTestObject('Page_Faculty Directory  Kellogg School of Management/select_Tenure-line'))
+
+WebUI.verifyOptionPresentByLabel(findTestObject('Page_Faculty Directory  Kellogg School of Management/select_Tenure-line'), 
+    'Clinical', false, 3)
+
+WebUI.selectOptionByIndex(findTestObject('Page_Faculty Directory  Kellogg School of Management/select_Tenure-line'), '3', 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Visit-Kellogg/Page_Full-Time MBA Program  Kellogg School of Management/a_Visit Kellogg'))
+WebUI.verifyTextPresent('Brenda Ellington Booth', false)
 
-visitTitle = WebUI.getWindowTitle()
+mainFacultyIndex = WebUI.getWindowIndex()
 
-WebUI.verifyMatch(visitTitle, 'Campus Visits', false)
+WebUI.click(findTestObject('Page_Faculty Directory  Kellogg School of Management/h2_Brenda Ellington Booth'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Visit-Kellogg/Page_Campus Visits/a_Register to Visit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.switchToWindowIndex(mainFacultyIndex + 1)
 
-WebUI.click(findTestObject('Page_Visit-Kellogg/Page_Campus Visits/a_Register to Visit'))
+WebUI.waitForPageLoad(5)
 
-campusVisitTitle = WebUI.getWindowTitle()
+ellingtonTitle = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(campusVisitTitle, 'Kellogg School of Management - Full-Time MBA Campus Visit', false)
+WebUI.verifyMatch(ellingtonTitle, 'Brenda Ellington Booth - Faculty - Kellogg School of Management', false)
 
 WebUI.closeBrowser()
 

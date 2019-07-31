@@ -17,9 +17,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.kellogg.northwestern.edu/faculty/faculty_directory.aspx')
 
+WebUI.verifyElementPresent(findTestObject('input_Contact_srch-term'), 5)
+
 WebUI.setText(findTestObject('Object Repository/input_Contact_srch-term'), 'sally')
 
 WebUI.click(findTestObject('Object Repository/button_Contact_btnfacultySearch'))
+
+WebUI.waitForPageLoad(5)
+
+facultyTitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(facultyTitle, 'Sally Blount - Faculty - Kellogg School of Management', false)
 
 WebUI.closeBrowser()
 
