@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing dropdowns on the faculty research page.</description>
+   <name>Research_Dropdown-Input - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7969464c-a870-4f21-9c41-614412be688e</testCaseGuid>
+</TestCaseEntity>

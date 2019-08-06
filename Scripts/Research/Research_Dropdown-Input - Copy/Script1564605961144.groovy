@@ -29,17 +29,23 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Kellogg-Research/sel
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Kellogg-Research/select_All Departments'), '12', true)
 
+WebUI.verifyElementPresent(findTestObject('Kellogg-Research/span_No results found'), 0)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Kellogg-Research/select_All Research'), '4', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Kellogg-Research/select_All Research'), '3', true)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Kellogg-Research/select_All Research'), '0', true)
 
-WebUI.verifyElementClickable(findTestObject('Page_Recent Scholarly Research  Kellogg School of Management/td_The First-Member Heuristic'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Kellogg-Research/td_Improving Retention'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Recent Scholarly Research  Kellogg School of Management/td_The First-Member Heuristic'))
+WebUI.click(findTestObject('Object Repository/Kellogg-Research/td_Improving Retention'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(8)
 
 researchDetailsTitle = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(researchDetailsTitle, 'Research Details | Research | Faculty & Research Overview | Kellogg School of Management', 
+WebUI.verifyMatch(researchDetailsTitle, 'Recent Scholarly Research | Kellogg School of Management', 
     false)
 
 WebUI.closeBrowser()

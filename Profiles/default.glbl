@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>cms</description>
+      <initValue>'http://cms9dev'</initValue>
+      <name>development</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

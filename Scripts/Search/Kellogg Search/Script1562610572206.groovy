@@ -20,5 +20,11 @@ WebUI.navigateToUrl('http://cms9dev.kellogg.northwestern.edu/')
 WebUI.setText(findTestObject('Object Repository/Kellogg_Search/input_Kellogg School of Management at Northwestern University_layoutheader_0searchcomponent_0txtQuery'), 
     'test')
 
-WebUI.getText(findTestObject('Object Repository/Kellogg_Search/input_Kellogg School of Management at Northwestern University_layoutheader_0searchcomponent_0txtQuery'))
+WebUI.click(findTestObject('Page_Kellogg School of Management  Northwestern University/button_btnglobalSearch'))
+
+searchResultsTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyMatch(searchResultsTitle, 'Search Results | Kellogg School of Management | Northwestern', false)
+
+WebUI.closeBrowser()
 

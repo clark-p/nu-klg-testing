@@ -17,9 +17,21 @@
       <testCaseId>Test Cases/Faculty-Directory/faculty-profile-multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0ab07ca9-5a17-46ae-ae93-ed30ecfe59b2</guid>
+      <guid>019ede6b-3787-469c-966f-829f8e27599b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faculty-Directory/faculty-profile-dropdown-DO NOT USE</testCaseId>
+      <testCaseId>Test Cases/Faculty-Directory/faculty-profile</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>376f28b2-8337-44f0-8352-339f6ae473a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Faculty-Directory/faculty-profile-dropdown</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>134a215f-8f31-4bf3-ace0-8b06f505ae7a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Faculty-Directory/faculty-profile-tenure-dropdown</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test was created in order to replicate a user's workflow as they request information through the FTMBA site. </description>
    <name>FT_MBA_Form-Request_Info</name>
    <tag></tag>
    <comment></comment>

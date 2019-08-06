@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test was created in order to mimic the user's workflow when using the dropdowns for faculty profile searches.</description>
    <name>faculty-profile-dropdown</name>
    <tag></tag>
    <comment></comment>
