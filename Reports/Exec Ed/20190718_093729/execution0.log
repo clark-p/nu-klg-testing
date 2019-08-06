@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-18T09:37:33</date>
+  <millis>1563460653999</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Exec Ed</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Exec Ed</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Exec Ed</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:34</date>
+  <millis>1563460654017</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = KIS - 129.105.210.226</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">KIS - 129.105.210.226</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:34</date>
+  <millis>1563460654018</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:34</date>
+  <millis>1563460654019</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 129.105.210.226</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">129.105.210.226</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:34</date>
+  <millis>1563460654020</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.5.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.5.3</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:34</date>
+  <millis>1563460654402</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/cms9 tests/Exec Ed Tests/Group and Custom Solutions/Inquiry Form</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/cms9 tests/Exec Ed Tests/Group and Custom Solutions/Inquiry Form</property>
+  <property name="description">Group and Custom Solutions</property>
+  <property name="id">Test Cases/cms9 tests/Exec Ed Tests/Group and Custom Solutions/Inquiry Form</property>
+  <property name="source">C:\\Users\\KIS\\git\\nu-klg-testing\\Test Cases\\cms9 tests\\Exec Ed Tests\\Group and Custom Solutions\\Inquiry Form.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:35</date>
+  <millis>1563460655025</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:35</date>
+  <millis>1563460655520</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;IE&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:35</date>
+  <millis>1563460655637</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:39</date>
+  <millis>1563460659346</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 65ecb496-33e4-45d4-ae32-f9a778bc634a</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">65ecb496-33e4-45d4-ae32-f9a778bc634a</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:39</date>
+  <millis>1563460659417</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = IE 11</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">IE 11</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:39</date>
+  <millis>1563460659418</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:39</date>
+  <millis>1563460659421</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:39</date>
+  <millis>1563460659421</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:39</date>
+  <millis>1563460659421</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:39</date>
+  <millis>1563460659421</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:39</date>
+  <millis>1563460659421</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;http://cms9dev.kellogg.northwestern.edu/executive-education/group-and-custom-solutions/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:45</date>
+  <millis>1563460665973</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://cms9dev.kellogg.northwestern.edu/executive-education/group-and-custom-solutions/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:45</date>
+  <millis>1563460665975</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;http://cms9dev.kellogg.northwestern.edu/executive-education/group-and-custom-solutions/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:45</date>
+  <millis>1563460665975</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Pages_Exec Ed/Group and Custom Solutions/Page_Group  Custom Solutions  Kellogg Executive Education/a_Inquiry Form\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:48</date>
+  <millis>1563460668310</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Group  Custom Solutions  Kellogg Executive Education/a_Inquiry Form&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:48</date>
+  <millis>1563460668310</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Pages_Exec Ed/Group and Custom Solutions/Page_Group  Custom Solutions  Kellogg Executive Education/a_Inquiry Form\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:48</date>
+  <millis>1563460668311</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_First Name _first_name\&amp;quot;), \&amp;quot;Zzmatthew\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:49</date>
+  <millis>1563460669006</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Zzmatthew&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_First Name _first_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:49</date>
+  <millis>1563460669007</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_First Name _first_name\&amp;quot;), \&amp;quot;Zzmatthew\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:49</date>
+  <millis>1563460669008</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Last Name _last_name\&amp;quot;), \&amp;quot;Zzcacioppo\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:49</date>
+  <millis>1563460669628</millis>
+  <sequence>53</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Zzcacioppo&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Last Name _last_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:49</date>
+  <millis>1563460669629</millis>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Last Name _last_name\&amp;quot;), \&amp;quot;Zzcacioppo\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:49</date>
+  <millis>1563460669629</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Title_title\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:50</date>
+  <millis>1563460670286</millis>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST*&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Title_title&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:50</date>
+  <millis>1563460670287</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Title_title\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:50</date>
+  <millis>1563460670288</millis>
+  <sequence>66</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Company _company\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:51</date>
+  <millis>1563460671351</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Company _company&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:51</date>
+  <millis>1563460671352</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Company _company\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:51</date>
+  <millis>1563460671353</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Title_title\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:51</date>
+  <millis>1563460671986</millis>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST*&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Title_title&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:51</date>
+  <millis>1563460671986</millis>
+  <sequence>85</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Title_title\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:51</date>
+  <millis>1563460671987</millis>
+  <sequence>86</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Company _company\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:52</date>
+  <millis>1563460672588</millis>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST*&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Company _company&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:52</date>
+  <millis>1563460672589</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Company _company\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:52</date>
+  <millis>1563460672590</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Department_00N60000002YFm5\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:53</date>
+  <millis>1563460673253</millis>
+  <sequence>106</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST*&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Department_00N60000002YFm5&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:53</date>
+  <millis>1563460673254</millis>
+  <sequence>107</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Department_00N60000002YFm5\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:53</date>
+  <millis>1563460673254</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Email _email\&amp;quot;), \&amp;quot;matthew.cacioppo@northwestern.edu\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:54</date>
+  <millis>1563460674029</millis>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;matthew.cacioppo@northwestern.edu&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Email _email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:54</date>
+  <millis>1563460674030</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Email _email\&amp;quot;), \&amp;quot;matthew.cacioppo@northwestern.edu\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:54</date>
+  <millis>1563460674030</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Phone_phone\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:54</date>
+  <millis>1563460674674</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST*&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Phone_phone&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:54</date>
+  <millis>1563460674675</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Phone_phone\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:54</date>
+  <millis>1563460674676</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Mobile_mobile\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:55</date>
+  <millis>1563460675344</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST*&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Mobile_mobile&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:55</date>
+  <millis>1563460675345</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Mobile_mobile\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:55</date>
+  <millis>1563460675345</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/span_Next\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:56</date>
+  <millis>1563460676540</millis>
+  <sequence>148</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/span_Next&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:56</date>
+  <millis>1563460676541</millis>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/span_Next\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:56</date>
+  <millis>1563460676542</millis>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea_Street_street\&amp;quot;), \&amp;quot;2211 Campus Drive\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:57</date>
+  <millis>1563460677205</millis>
+  <sequence>159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;2211 Campus Drive&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea_Street_street&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:57</date>
+  <millis>1563460677207</millis>
+  <sequence>160</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea_Street_street\&amp;quot;), \&amp;quot;2211 Campus Drive\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:57</date>
+  <millis>1563460677207</millis>
+  <sequence>161</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_City_city\&amp;quot;), \&amp;quot;Evanston\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:57</date>
+  <millis>1563460677815</millis>
+  <sequence>170</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Evanston&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_City_city&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:57</date>
+  <millis>1563460677816</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_City_city\&amp;quot;), \&amp;quot;Evanston\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:57</date>
+  <millis>1563460677816</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Postal Code_zip\&amp;quot;), \&amp;quot;600\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:58</date>
+  <millis>1563460678382</millis>
+  <sequence>181</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;600&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Postal Code_zip&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:58</date>
+  <millis>1563460678383</millis>
+  <sequence>182</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Postal Code_zip\&amp;quot;), \&amp;quot;600\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:58</date>
+  <millis>1563460678383</millis>
+  <sequence>183</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToWindowTitle(\&amp;quot;Custom Program Inquiry Form | Kellogg Executive Education\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:58</date>
+  <millis>1563460678569</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to window with title: &amp;apos;Custom Program Inquiry Form | Kellogg Executive Education&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:58</date>
+  <millis>1563460678569</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToWindowTitle(\&amp;quot;Custom Program Inquiry Form | Kellogg Executive Education\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:58</date>
+  <millis>1563460678570</millis>
+  <sequence>188</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Postal Code_zip\&amp;quot;), \&amp;quot;600\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:59</date>
+  <millis>1563460679064</millis>
+  <sequence>197</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;600&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Postal Code_zip&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:59</date>
+  <millis>1563460679065</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Postal Code_zip\&amp;quot;), \&amp;quot;600\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:59</date>
+  <millis>1563460679065</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToWindowTitle(\&amp;quot;Custom Program Inquiry Form | Kellogg Executive Education\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:59</date>
+  <millis>1563460679235</millis>
+  <sequence>202</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to window with title: &amp;apos;Custom Program Inquiry Form | Kellogg Executive Education&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:59</date>
+  <millis>1563460679236</millis>
+  <sequence>203</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToWindowTitle(\&amp;quot;Custom Program Inquiry Form | Kellogg Executive Education\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:59</date>
+  <millis>1563460679237</millis>
+  <sequence>204</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Postal Code_zip\&amp;quot;), \&amp;quot;60208\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">69</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-07-18T09:37:59</date>
+  <millis>1563460679745</millis>
+  <sequence>213</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;60208&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Postal Code_zip&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:59</date>
+  <millis>1563460679746</millis>
+  <sequence>214</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_Postal Code_zip\&amp;quot;), \&amp;quot;60208\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:37:59</date>
+  <millis>1563460679746</millis>
+  <sequence>215</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/select_--None--Acre\&amp;quot;), \&amp;quot;IL\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-07-18T09:38:40</date>
+  <millis>1563460720082</millis>
+  <sequence>224</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;IL&amp;apos; are selected in object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/select_--None--Acre&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:38:40</date>
+  <millis>1563460720083</millis>
+  <sequence>225</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/select_--None--Acre\&amp;quot;), \&amp;quot;IL\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:38:40</date>
+  <millis>1563460720083</millis>
+  <sequence>226</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/select_--None--AfghanistanAland\&amp;quot;), \&amp;quot;US\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2019-07-18T09:39:19</date>
+  <millis>1563460759518</millis>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;US&amp;apos; are selected in object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/select_--None--AfghanistanAland&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:19</date>
+  <millis>1563460759519</millis>
+  <sequence>236</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/select_--None--AfghanistanAland\&amp;quot;), \&amp;quot;US\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:19</date>
+  <millis>1563460759520</millis>
+  <sequence>237</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/span_Next_2\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2019-07-18T09:39:20</date>
+  <millis>1563460760582</millis>
+  <sequence>244</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/span_Next_2&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:20</date>
+  <millis>1563460760583</millis>
+  <sequence>245</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/span_Next_2\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:20</date>
+  <millis>1563460760584</millis>
+  <sequence>246</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea_Describe your areas of interest\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">80</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2019-07-18T09:39:21</date>
+  <millis>1563460761202</millis>
+  <sequence>255</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST*&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea_Describe your areas of interest&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:21</date>
+  <millis>1563460761202</millis>
+  <sequence>256</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea_Describe your areas of interest\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:21</date>
+  <millis>1563460761203</millis>
+  <sequence>257</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea_Describe the profile\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">83</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2019-07-18T09:39:21</date>
+  <millis>1563460761806</millis>
+  <sequence>266</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST*&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea_Describe the profile&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:21</date>
+  <millis>1563460761807</millis>
+  <sequence>267</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea_Describe the profile\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:21</date>
+  <millis>1563460761807</millis>
+  <sequence>268</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">86</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2019-07-18T09:39:22</date>
+  <millis>1563460762408</millis>
+  <sequence>277</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST*&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:22</date>
+  <millis>1563460762409</millis>
+  <sequence>278</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/textarea\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:22</date>
+  <millis>1563460762410</millis>
+  <sequence>279</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_How many participants\&amp;quot;), \&amp;quot;*THIS IS A TEST\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">89</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2019-07-18T09:39:23</date>
+  <millis>1563460763038</millis>
+  <sequence>288</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_How many participants&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:23</date>
+  <millis>1563460763039</millis>
+  <sequence>289</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_How many participants\&amp;quot;), \&amp;quot;*THIS IS A TEST\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:23</date>
+  <millis>1563460763039</millis>
+  <sequence>290</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">92</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2019-07-18T09:39:23</date>
+  <millis>1563460763662</millis>
+  <sequence>299</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;*THIS IS A TEST*&amp;apos; is set on object &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:23</date>
+  <millis>1563460763663</millis>
+  <sequence>300</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/\&amp;quot;), \&amp;quot;*THIS IS A TEST*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:23</date>
+  <millis>1563460763663</millis>
+  <sequence>301</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_ Back_submit\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">95</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2019-07-18T09:39:27</date>
+  <millis>1563460767115</millis>
+  <sequence>308</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_ Back_submit&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:27</date>
+  <millis>1563460767116</millis>
+  <sequence>309</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Custom Program Inquiry Form  Kellogg Executive Education/input_ Back_submit\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:27</date>
+  <millis>1563460767117</millis>
+  <sequence>310</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Thank You  Kellogg Executive Education/span_Thank You\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">97</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2019-07-18T09:39:28</date>
+  <millis>1563460768508</millis>
+  <sequence>317</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Thank You  Kellogg Executive Education/span_Thank You&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:28</date>
+  <millis>1563460768509</millis>
+  <sequence>318</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Pages_Exec Ed/Group and Custom Solutions/Page_Thank You  Kellogg Executive Education/span_Thank You\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:28</date>
+  <millis>1563460768510</millis>
+  <sequence>319</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">99</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2019-07-18T09:39:29</date>
+  <millis>1563460769060</millis>
+  <sequence>321</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:29</date>
+  <millis>1563460769060</millis>
+  <sequence>322</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:29</date>
+  <millis>1563460769061</millis>
+  <sequence>323</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/cms9 tests/Exec Ed Tests/Group and Custom Solutions/Inquiry Form</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:29</date>
+  <millis>1563460769061</millis>
+  <sequence>324</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/cms9 tests/Exec Ed Tests/Group and Custom Solutions/Inquiry Form</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-18T09:39:29</date>
+  <millis>1563460769108</millis>
+  <sequence>325</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Exec Ed</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
